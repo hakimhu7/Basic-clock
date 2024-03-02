@@ -15,7 +15,7 @@ def time():
     lbl.after(1000, time)
 
 lbl = Label(table, font = ("droid serif" , 40 ,"bold" ),
-           background= 'dark blue', foreground= "white" )
+           background= 'black', foreground= "white" )
 Label(table,text='CET time' ).pack()
 lbl.pack(anchor= "center") #must be n, ne, e, se, s, sw, w, nw, or center
 time()
