@@ -6,6 +6,7 @@ from datetime import datetime  #deals with date and time manipulations
 table = Tk()  # creating window 
 table.title("Tikety-tokety") # naming the window 
 
+
 def time():
     CETtime = pytz.timezone('Europe/Brussels')
     getCETtime = datetime.now(CETtime)
@@ -15,8 +16,7 @@ def time():
 
 lbl = Label(table, font = ("droid serif" , 40 ,"bold" ),
            background= 'dark blue', foreground= "white" )
-
+Label(table,text='CET time' ).pack()
 lbl.pack(anchor= "center") #must be n, ne, e, se, s, sw, w, nw, or center
 time()
 mainloop()
-
