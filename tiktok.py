@@ -4,7 +4,7 @@ from tkinter.ttk import * #gui theme
 import pytz
 from datetime import datetime
 table = Tk()  # creating window 
-table.title("Amina's tikety-tokety") # naming the window 
+table.title("Tikety-tokety") # naming the window 
 
 def time():
     kazakhtime = pytz.timezone('Etc/GMT+6')
